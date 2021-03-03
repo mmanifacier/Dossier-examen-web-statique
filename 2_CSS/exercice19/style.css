@@ -1,0 +1,36 @@
+@import url("css/exam.min.css");
+
+/* ########################################
+Ecrire votre code ci-dessous
+########################################*/
+
+#my-div #centrer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#my-div #centrer:first-child {
+    align-self: stretch;
+}
+#my-div #centrer:nth-child(2) {
+    align-self: flex-start;
+}
+#my-div #centrer:nth-child(3) {
+    align-self: center;
+}
+#my-div #centrer:nth-child(4) {
+    align-self: flex-start;
+}
+#my-div #centrer:nth-child(5) {
+    align-self: center;
+}
+#my-div #centrer:nth-child(6) {
+    align-self: flex-start;
+}
+#my-div #centrer:nth-child(7) {
+    align-self: center;
+}
+#my-div #centrer:last-child {
+    align-self: stretch;
+}

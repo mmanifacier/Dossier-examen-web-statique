@@ -1,0 +1,53 @@
+@import url("css/exam.min.css");
+
+/* ########################################
+Ecrire votre code ci-dessous
+########################################*/
+
+#my-div {
+    display: flex;
+    justify-content: space-between;
+}
+#my-div #gauche {
+    margin-left: 1rem;
+}
+#my-div #droite ul {
+    display: flex;
+}
+#my-div #droite ul a {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    background-image: url(./img/social-icons.png);
+}
+#my-div #droite ul a li {
+    display: none;
+}
+a:hover {
+    transition: ease-in;
+    transition-duration: .2s;
+}
+.fb {
+    background-position: bottom 0 left 0;
+}
+.fb:hover {
+    background-position: top 0 left 0;
+}
+.ig {
+    background-position: bottom 0 left 400px;
+}
+.ig:hover {
+    background-position: top 0 left 400px;
+}
+.tw {
+    background-position: bottom 0 right 200px;
+}
+.tw:hover {
+    background-position: top 0 right 200px;
+}
+.ln {
+    background-position: bottom 0 left 300px;
+}
+.ln:hover {
+    background-position: top 0 left 300px;
+}

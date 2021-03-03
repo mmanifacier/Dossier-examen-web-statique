@@ -1,0 +1,41 @@
+@import url("css/exam.min.css");
+
+/* ########################################
+Ecrire votre code ci-dessous 
+########################################*/
+
+
+/* -------- Selecteurs simples -------- */
+body {
+    font-size: 18px;
+}
+h3, h4 {
+    text-decoration: underline;
+}
+article h4 {
+    color: lightcoral;
+}
+h4 + p {
+    font-style: italic;
+}
+h4 p {
+    color: white;
+}
+.copyright {
+    text-align: right;
+    font-size: .7rem;
+}
+
+/* -------- Selecteurs avancés -------- */
+a:hover {
+    color: yellow;
+}
+a[target="_blank"]:hover{
+    color: red;
+}
+h4 + p::first-letter {
+    font-size: 1.2rem
+}
+article:before, article:after {
+    content: "*****************************";
+}

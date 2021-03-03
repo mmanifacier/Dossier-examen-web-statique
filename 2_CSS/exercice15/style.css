@@ -1,0 +1,11 @@
+@import url("css/exam.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+/* ########################################
+Ecrire votre code ci-dessous
+########################################*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DotGothic16', sans-serif;
+}

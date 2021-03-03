@@ -1,0 +1,21 @@
+@import url("css/exam.min.css");
+
+/* ########################################
+Ecrire votre code ci-dessous
+########################################*/
+
+#my-div {
+    height: 100px;
+    color: chartreuse;
+    background-color: #5a5a5a;
+    text-align: center;
+    padding: 0 20rem;
+    position: absolute;
+    bottom: 0;
+}
+span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
